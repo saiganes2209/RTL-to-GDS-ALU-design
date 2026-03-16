@@ -1,0 +1,43 @@
+# RTL-to-GDS-ALU-design
+
+
+RTL simulation of ALU 
+<img width="1828" height="813" alt="image" src="https://github.com/user-attachments/assets/5c21ce54-4fce-4d4d-b5f4-601a99d667ac" />
+
+
+Inputs required for Physical design: 
+✓ Synthesized Netlist 
+✓ Sdc file along with netlist 
+✓ Qrc Tech file 
+✓ Library file that we have used for synthesis. 
+✓ Lef files  
+
+Cadence Innovus Flow: 
+• Floor plan 
+• Pin editor 
+• Power plan 
+• Connect global nets 
+• Add end cap 
+• Special route 
+• Placement 
+• Pre CTS 
+• CTS 
+• Post CTS 
+• Route 
+• Post route 
+• Layout 
+
+1. Flooeplan: powerplan, Pin placement, decap addition
+   <img width="933" height="934" alt="image" src="https://github.com/user-attachments/assets/a27937a6-2418-430e-9b6b-c11106e3fee0" />
+
+2. Placement
+   <img width="994" height="933" alt="image" src="https://github.com/user-attachments/assets/7956eb05-05d1-41ef-802f-c04e3e09f837" />
+
+3.  Pre- CTS: Check for setup & Hold violation
+    <img width="740" height="654" alt="image" src="https://github.com/user-attachments/assets/e32f4fab-59ca-4f1c-965a-a9d266df1d48" />
+    
+4. Routing: preroute(gloabal routing), post routing(detailed routing)
+   <img width="752" height="656" alt="image" src="https://github.com/user-attachments/assets/2fc46964-8086-4962-9213-75cb3e6211ee" />
+
+5. Final Layout
+   <img width="824" height="786" alt="image" src="https://github.com/user-attachments/assets/7bdf8f3c-ee1d-42c3-b396-0909c9986455" />
